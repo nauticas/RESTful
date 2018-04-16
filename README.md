@@ -99,19 +99,22 @@ untuk menggunakan aplikasi ini silakan lakukan perintah sebagai berikut:
 
 ######METHOD GET ALL
 
-<img src="https://github.com/nauticas/RESTful/postman/postman-getall.jpg" alt="Build Status"></a>
+<img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-getall.jpg" alt="Build Status"></a>
 
 ######METHOD GET
 
-<img src="https://github.com/nauticas/RESTful/postman/postman-get.jpg" alt="Build Status"></a>
+<img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-get.jpg" alt="Build Status"></a>
 
 ######METHOD POST
 
-<img src="https://github.com/nauticas/RESTful/postman/postman-postSave.jpg" alt="Build Status"></a>
+<img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-postSave.jpg" alt="Build Status"></a>
 
 ######METHOD PUT
 
-<img src="https://github.com/nauticas/RESTful/postman/postman-put.jpg" alt="Build Status"></a>
+<img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-put.jpg" alt="Build Status"></a>
 
 ######METHOD DELETE
-<img src="https://github.com/nauticas/RESTful/postman/postman-delete.jpg" alt="Build Status"></a>
+
+
+
+<img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-delete.jpg" alt="Build Status"></a>
