@@ -59,7 +59,7 @@ untuk menggunakan aplikasi ini silakan lakukan perintah sebagai berikut:
 
    ​
 
-2. setelah aplikasi terunduh masuk dalam folder laravel-resful kemudian jalankan peritah :
+1. setelah aplikasi terunduh masuk dalam folder laravel-resful kemudian jalankan peritah :
 
    ```
    composer install
@@ -67,9 +67,16 @@ untuk menggunakan aplikasi ini silakan lakukan perintah sebagai berikut:
 
    tunggu sampai instalasi selesai
 
-3. buat data base sesuai kebutuhan
+1. buat data base sesuai kebutuhan, pastikan user memiliki hak akses terhadap db yang dibuat
 
-4. lakukan perubahan *environment* file .env  pada baris berikut
+1. salin file .env.example menjadi .env
+    ```
+    (linux) cp .env.example .env
+
+    (windows) copy .env.example .env
+    ```
+
+1. lakukan perubahan *environment* file .env  pada baris berikut
 
    ```
    DB_CONNECTION=mysql
@@ -82,7 +89,7 @@ untuk menggunakan aplikasi ini silakan lakukan perintah sebagai berikut:
 
     sesuaikan dengan nama dan setting database anda
 
-5. jalankan dua perintah berikut untuk membuat tabel dan dummy data
+1. jalankan dua perintah berikut untuk membuat tabel dan dummy data
 
    ```
    php artisan migrate
@@ -93,27 +100,31 @@ untuk menggunakan aplikasi ini silakan lakukan perintah sebagai berikut:
 
    pastikan tabel dan data telah ada pada database
 
+1. generate key dengan perintah berikut
+    ```
+    php artisan key:generate
 
+    ```
 
 **UJI COBA DENGAN POSTMAN**
 
-######METHOD GET ALL
+###### METHOD GET ALL
 
 <img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-getall.jpg" alt="Build Status"></a>
 
-######METHOD GET
+###### METHOD GET
 
 <img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-get.jpg" alt="Build Status"></a>
 
-######METHOD POST
+###### METHOD POST
 
 <img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-postSave.jpg" alt="Build Status"></a>
 
-######METHOD PUT
+###### METHOD PUT
 
 <img src="https://github.com/nauticas/RESTful/blob/master/postman/postman-put.jpg" alt="Build Status"></a>
 
-######METHOD DELETE
+###### METHOD DELETE
 
 
 
