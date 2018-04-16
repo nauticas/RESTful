@@ -28,3 +28,90 @@ Garis besar cara kerja RESTful web services umumnya dimulai dari REST Client men
 - HTTP version, menunjukkan versi HTTP yang digunakan untuk berkomunikasi
 - Response Header, berisi metadata untuk HTTP Response seperti type server, panjang content, type content, waktu response, dll
 - Response Body, konten dari data yang diberikan
+
+**Method POST dan GET**
+
+**Method PUT dan DELETE**
+
+
+
+**SOURCE CODE RESTFUL API DENGAN LARAVEL**
+
+##### Kebutuhan sistem
+
+- composer
+- PHP >= 7.1.3
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+- Ctype PHP Extension
+- JSON PHP Extension
+
+untuk menggunakan aplikasi ini silakan lakukan perintah sebagai berikut:
+
+1. unduh aplikasi ini dengan menggunakan perintah git clone
+
+   ```
+   git clone https://github.com/nauticas/RESTful.git
+   ```
+
+   ​
+
+2. setelah aplikasi terunduh masuk dalam folder laravel-resful kemudian jalankan peritah :
+
+   ```
+   composer install
+   ```
+
+   tunggu sampai instalasi selesai
+
+3. buat data base sesuai kebutuhan
+
+4. lakukan perubahan *environment* file .env  pada baris berikut
+
+   ```
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=nama_database
+   DB_USERNAME=user_database
+   DB_PASSWORD=password_database
+   ```
+
+    sesuaikan dengan nama dan setting database anda
+
+5. jalankan dua perintah berikut untuk membuat tabel dan dummy data
+
+   ```
+   php artisan migrate
+
+   php artisan db:seed
+
+   ```
+
+   pastikan tabel dan data telah ada pada database
+
+
+
+**UJI COBA DENGAN POSTMAN**
+
+######METHOD GET ALL
+
+<img src="https://github.com/nauticas/RESTful/postman/postman-getall.jpg" alt="Build Status"></a>
+
+######METHOD GET
+
+<img src="https://github.com/nauticas/RESTful/postman/postman-get.jpg" alt="Build Status"></a>
+
+######METHOD POST
+
+<img src="https://github.com/nauticas/RESTful/postman/postman-postSave.jpg" alt="Build Status"></a>
+
+######METHOD PUT
+
+<img src="https://github.com/nauticas/RESTful/postman/postman-put.jpg" alt="Build Status"></a>
+
+######METHOD DELETE
+<img src="https://github.com/nauticas/RESTful/postman/postman-delete.jpg" alt="Build Status"></a>
